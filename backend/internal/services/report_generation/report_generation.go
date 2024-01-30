@@ -40,7 +40,6 @@ func (s *ReportGenerationService) loop(ctx context.Context) {
 			s.tryDequeue()
 		case <-ctx.Done():
 			return
-
 		}
 	}
 }

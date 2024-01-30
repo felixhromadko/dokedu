@@ -4,9 +4,10 @@ import (
 	"context"
 	"example/internal/db"
 	"fmt"
-	"github.com/uptrace/bun"
 	"strings"
 	"time"
+
+	"github.com/uptrace/bun"
 )
 
 type ReportData struct {

@@ -7,11 +7,12 @@ import (
 	"example/internal/db"
 	"example/internal/middleware"
 	"fmt"
-	"github.com/graph-gophers/dataloader"
-	"github.com/uptrace/bun"
 	"log"
 	"strings"
 	"time"
+
+	"github.com/graph-gophers/dataloader"
+	"github.com/uptrace/bun"
 )
 
 type CompetenceParents struct {
